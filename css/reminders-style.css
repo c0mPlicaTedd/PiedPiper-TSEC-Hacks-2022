@@ -19,12 +19,12 @@ html {
 }
 body {
   margin:0;
-  background:#fc0;
+  background:#949bc5;
 }
 h1 {
   margin:15px 0;
   line-height:1.2;
-  color:#e90;
+  color:black;
   padding:0 15px;
 }
 section {
@@ -35,9 +35,9 @@ section input[type=text] {
   margin:0 0 15px 0;
   -webkit-appearance:none;
   appearance:none;
-  background:#fc0;
+  background:white;
   color:black;
-  border:1px solid #e90;
+  border:1px solid rgb(159,144,212);
   border-radius:1px;
   padding:5px;
   font-size:14pt;
@@ -56,9 +56,9 @@ section input[type=button] {
   margin:0 0 15px 0;
   -webkit-appearance:none;
   appearance:none;
-  border:1px solid #e90;
-  background:#fc0;
-  color:#e90;
+  border:1px solid rgb(159,144,212);
+  background:white;
+  color: black;
   border-radius:1px;
   padding:5px;
   font-size:19pt;
@@ -70,10 +70,10 @@ section input[type=button] {
   cursor:pointer;
 }
 #enter input[type=text] {
-  background:#fe5;
+  background:white;
 }
 #enter input[type=button] {
-  background:#e90;
-  color:#fc0;
-  border-color:#e90;
+  background:white;
+  color:black;
+  border-color:rgb(159,144,212);
 }
