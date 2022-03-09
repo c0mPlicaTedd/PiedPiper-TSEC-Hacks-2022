@@ -21,12 +21,9 @@
                             <label class="label-password">Password</label>
                             <input type="password" class="form-input" name="password">
                         </div>
-                        <br>
-                        <input type="checkbox" class="check-box"><span class="checkbox-styling">Remember Me</span>
-                        
                     
                         <a href="" class="createacc-box">
-                        <button class="btn-createaccount" data-bn-type="button" type ="sumbit" name="submit">Log In</button>
+                        <button id = "button" class="btn-createaccount" data-bn-type="button" type ="sumbit" name="submit">Log In</button>
                         </a> 
                         </div>
                     </form>
@@ -58,7 +55,28 @@
            
             
         </div>
-        
+
+        <div class="bg-modal">
+        <div class = "modal-content">
+                <div type="text" class = "register-title">Are you a?</div>
+
+                <a onclick= modalclose() id = "role-button" class="user-button" >User</a>
+                <a onclick = modalclose() id = "role-button" class="care-button">Care Giver</a>
+            </form>
+        </div>
+    </div>
+
  
     </body>
+    <script>
+        function modalclose(){
+            document.querySelector(".bg-modal").style.display="none";
+        }
+        document.addEventListener("DOMContentLoaded", function(){
+        document.querySelector(".bg-modal").style.display="flex";
+        });
+
+        
+    
+    </script>
 </html>
