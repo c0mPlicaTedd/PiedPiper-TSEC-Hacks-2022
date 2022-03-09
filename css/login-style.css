@@ -2,7 +2,8 @@ body{
     margin: 0;
     padding: 0;
     text-decoration: none;
-    background-color: #fafafa;
+    background-image: url(../images/perfect.jpg);
+    z-index: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -38,8 +39,8 @@ header{
 }
 .registerpage{
     background-color: #fafafa;
-  
-   
+    background-image: url(../images/perfect.jpg);
+   height: 100%;
 }
 .form{
    
@@ -47,6 +48,8 @@ header{
     top:5.5em;
     margin-left: 3em;
     margin-right: 3em;
+    z-index: 1;
+
     
 }
 .register-form{
