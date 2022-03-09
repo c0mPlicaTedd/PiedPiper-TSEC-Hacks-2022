@@ -104,10 +104,11 @@ h3{
 h5{
     color: #fff;
     text-shadow: 0 0 5px #999;
+    font-size: 20px;
 }
 .card p{
     text-shadow: 0 0 15px #000;
-    font-size: 8px;
+    font-size: 12px;
 }
 .bg-modal{
     width: 100%;
@@ -230,7 +231,8 @@ h5{
     color:red;
 }
 .slidecontainer {
-    width: 100%; /* Width of the outside container */
+    width: 100%;
+    padding-left: 22px; /* Width of the outside container */
   }
   
   /* The slider itself */
@@ -267,4 +269,7 @@ h5{
     height: 25px; /* Slider handle height */
     background: #04AA6D; /* Green background */
     cursor: pointer; /* Cursor on hover */
+  }
+  h3{
+      color:rgb(159,144,212) ;
   }
