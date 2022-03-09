@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.notification {
+background-color: #555;
+color: white;
+text-decoration: none;
+padding: 15px 26px;
+position: relative;
+display: inline-block;
+border-radius: 2px;
+}
+
+.notification:hover {
+background: red;
+}
+
+.notification .badge {
+position: absolute;
+top: -10px;
+right: -10px;
+padding: 5px 10px;
+border-radius: 50%;
+background-color: red;
+color: white;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Main App</h1> 
+
+<h2>Your Reminders</h2>
+<a href="#" class="notification">
+<span>Reminders</span>
+<span class="badge">3</span>
+</a>
+
+   
+<h2>Try these!</h2>
+
+<button class="button" onclick="document.location='reminders-index.html'"><span>Open Reminders</span></button>
+<br>
+<br>
+<button class="button" onclick="document.location='crossword.html'"><span>Open a Crossword </span></button>
+<br>
+<br>
+<button class="button" onclick="document.location='Photos_of_family.html'"><span>Photos of Friends and Family </span></button>
+
+</html>
