@@ -102,7 +102,11 @@ function loginUser($conn,$email,$pwd){
     else if($checkPwd == TRUE){
         session_start();
         $_SESSION["usersEmail"] = $emailExists["usersEmail"];
-        header("location: ../homepage.html");
+        if($_SESSION["usersEmail"]=="jashdoshi99@gmail.com"){
+        header("location: ../admin.html");}
+        else if($_SESSION["usersEmail"]=="chetanabhojwani@gmail.com"){
+            header("location: ../homepage.html");
+        }
         exit();
     }
 }
