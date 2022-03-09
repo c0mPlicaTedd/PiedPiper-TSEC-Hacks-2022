@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>HTML PWA</title>
+  <title>Crossword for Dementia Patients</title>
   <meta name="description" content="HTML Progressive Web App made with zUIx.js">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,6 +54,65 @@
   <!-- import zUIx.js in-browser bundler -->
   <script src="js/zuix-bundler.js"></script>
 
+<style>
+  body {
+    background-color:#F8FAFA;
+  }
+
+  h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 300px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
   <!-- main app script -->
   <script src="index.js" defer></script>
 
@@ -96,7 +155,24 @@
   <div data-ui-include="shared/main_menu"></div>
 </div>
 
-<script type="text/javascript" src="https://MyCrosswordMaker.com/embedjs?puzzle_id=66736"></script>
+<h1 align="center">A fully functional crossword puzzle designed to exercise the memory of dementia patients and increase their memory retention.</h1>
+
+<br>
+<br>
+<br>
+<br>
+
+<div style="">
+<script type="text/javascript" src="https://MyCrosswordMaker.com/embedjs?puzzle_id=502494"></script>
+<link id="ch-stylesheet" rel="stylesheet" href="iFrame.min.css">
+</div>
+
+
+<div class="container">
+  <div class="center">
+    <button align="center" class="button" onclick="document.location='index.html'"><span>Go Back to Home</span></button>
+  </div>
+</div>
 
 </body>
 </html>
