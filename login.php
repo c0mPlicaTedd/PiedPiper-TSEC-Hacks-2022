@@ -34,7 +34,20 @@
                     </a> 
                     </div>
                 </form>
-                
+                <?php //to display the error message when filling out forms
+
+                    if(isset($_GET["error"])){
+
+                        if($_GET["error"] == "emptyinput"){
+                            echo "<p>Fill in all fields!</p>";
+                        }
+
+                        else if($_GET["error"] == "incorrectdetails"){
+                            echo "<p>Incorrect Login details!</p>";
+                        }
+                        
+                    }
+                ?>
             </div>
             </div>
             
