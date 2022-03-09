@@ -29,6 +29,7 @@
                         <button class="btn-createaccount" data-bn-type="button" type ="sumbit" name="submit">Log In</button>
                         </a> 
                         </div>
+                        
                     </form>
                 <?php //to display the error message when filling out forms
 
