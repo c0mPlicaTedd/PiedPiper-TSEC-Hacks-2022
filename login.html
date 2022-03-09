@@ -1,51 +1,41 @@
-<html>
+<!DOCTYPE html>
+<html lang = "en">
     <head>
-        <link href = "login-style.css" rel = "stylesheet"  type= "text/css" >
+        <title> CipherX | Crypto for Beginners </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/login-style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        
-        <div class="hero">
-            <div class="form-box">
-                <div class="button-box">
-                    <div id="btn"></div>
-                    <button type="button" class="toggle-btn" onclick="login()">Log In</button>
-                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
-                </div>
-                <form id="login" class="input-group">
-                    <input type="text" class="input-field" placeholder="User Id" required>
-                    <input type="text" class="input-field" placeholder="Enter Password" required>
-                    <input type="checkbox" class="check-box"><span>Remember Password</span>
-                    <button type="submit" class="submit-btn">Log In</button>
+        <div class = "registerpage">
+            <header class= "header">
+                <a href = "index.php" class = "header-dummystocks"> CIPHERX </a>
+            </header>
+            <div class="wrapper">
+            <div class="register-form">
+                <div data-bn-type="text" class = "register-title">Log In</div>
+                <form action="includes/login.inc.php" method="post">
+                <div class="form">
+                    <div class = "form-group">
+                        <label class="label-email">Email</label>
+                        <input type="text" class="form-input" name="email"> 
+                    </div>
+                    <div class = "form-group-pwd">
+                        <label class="label-password">Password</label>
+                        <input type="password" class="form-input" name="password">
+                    </div>
+                    
+                
+                    <a href="" class="createacc-box">
+                    <button class="btn-createaccount" data-bn-type="button" type ="sumbit" name="submit">Log In</button>
+                    </a> 
+                    </div>
                 </form>
-                <form id="register" class="input-group">
-                    <input type="text" class="input-field" placeholder="User Id" required>
-                    <input type="email" class="input-field" placeholder="Email Id" required>
-                    <input type="text" class="input-field" placeholder="Enter Password" required>
-                    <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
-                    <button type="submit" class="submit-btn">Register</button>
-                </form>
+                
+            </div>
             </div>
             
-            </div>
-            <script>
-                var x = document.getElementById("login");
-                var y = document.getElementById("register");
-                var z = document.getElementById("btn");
-
-                function register(){
-                    x.style.left="-400px";
-                    y.style.left="50px";
-                    z.style.left="110px";
-                }
-                function login(){
-                    x.style.left="50px";
-                    y.style.left="450px";
-                    z.style.left="0";    
-
-                }
-            </script>
+        </div>
 
     </body>
-
-    </head>
 </html>
