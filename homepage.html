@@ -3,13 +3,14 @@
         <meta name="viewpoint" content="width=device-width , initial-scale=1.0">
         <title>HomePage</title>
         <link href="css/homepage-styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="container">
             <div class="navbar">
-                <img src="../images/allyshow_w_1x.png" class="logo">
+                <img src="images/allyshow_w_1x.png" class="logo">
                 <nav>
                 <ul>
                     <li><a href="">HOW TO USE</a></li>
@@ -20,7 +21,12 @@
             </nav>
             </div>
             <h3>Ally Suggestion: </h3>
-            <h3>Thought of the day: </h3>
+            <h3>Thought of the day: Laughter is the best medicine you can have </h3>
+            <h3>Please Rate your mood right now using the scale given below</h3>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+              </div>
+              
             <div class="row">
                 <div class="col">
                     <div class="card card1">
@@ -54,13 +60,23 @@
                         <p>Alot of photos reminding you of your friends and family</p>
                         </a>
                     </div>
+                
 
                 </div>
             </div>
         </div>
        
-
-
     </body>
+    <script>
+        function modalclose(){
+            document.querySelector(".bg-modal").style.display="none";
+        }
+        document.addEventListener("DOMContentLoaded", function(){
+        document.querySelector(".bg-modal").style.display="flex";
+        });
+
+        
+    
+    </script>
 >>>>>>> Stashed changes
 </html>

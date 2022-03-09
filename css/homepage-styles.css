@@ -109,3 +109,162 @@ h5{
     text-shadow: 0 0 15px #000;
     font-size: 8px;
 }
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-content{
+    position: relative;
+    display: absolute;
+    width: 800px;
+    height: 450px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+.modal-input-email {
+    border-width: thin;
+    border-style: solid;
+    outline: none;
+    border-radius: 4px;
+    width:70%;
+    height:25px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.modal-input-password{
+    border-width: thin;
+    border-style: solid;
+    outline: none;
+    border-radius: 4px;
+    width:70%;
+    height:25px;
+    display: block;
+    margin: 15px auto;
+}
+.modal-input-email:focus,.modal-input-password:focus{
+    border-width: 2px;
+    outline: none;
+    border-color:#98ff98;
+    border-style: solid;
+}
+.register-title{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    top: 2em;
+}
+.register-subtitle{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    top: 6.5em;
+    color: #707A8A;
+}
+
+.user-button{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    color: #21282d;
+    margin-top: 175px;
+    margin-left: 470px;
+    text-align: center;
+    width : 150px;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #32cd32;
+}
+.care-button{
+    text-decoration: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    color: #21282d;
+    margin-left: 170px;
+    margin-top: -50px;
+    text-align: center;
+    width : 150px;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #32cd32;
+}
+.button:hover{
+    background-color: #98ff98;
+}
+.signinhyperlink{
+   font-size: 11px;
+   display: block;
+   margin: -20px auto;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 40px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close:hover{
+    color:red;
+}
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 25%; /* Full-width */
+    align-self: flex-end;
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
