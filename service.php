@@ -8,7 +8,7 @@
 
   <meta name="copyright" content="MACode ID, https://macodeid.com">
 
-  <title>DigiGram - Free Agency Template</title>
+  <title>Ally</title>
 
   <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
 

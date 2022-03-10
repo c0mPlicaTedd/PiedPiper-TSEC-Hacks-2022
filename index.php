@@ -46,7 +46,7 @@
             </li>
             
             <li class="nav-item">
-              <a href="blog.php" class="nav-link">How to Use</a>
+              <a href="https://drive.google.com/file/d/1v00fQ9upXtBZAWqC5VgPRNSzy0L7HmO0/view?usp=sharing" class="nav-link">How to Use</a>
             </li>
             <li class="nav-item">
               <a href="contact.php" class="nav-link">Contact</a>

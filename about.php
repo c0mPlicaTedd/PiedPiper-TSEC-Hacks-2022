@@ -8,7 +8,7 @@
 
   <meta name="copyright" content="MACode ID, https://macodeid.com">
 
-  <title>DigiGram - Free Agency Template</title>
+  <title>Ally</title>
 
   <link rel="stylesheet" href="assets/vendor/animate/animate.css">
 
@@ -44,7 +44,7 @@
               <a href="about.php" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="blog.php" class="nav-link">How to use</a>
+              <a href="https://drive.google.com/file/d/1v00fQ9upXtBZAWqC5VgPRNSzy0L7HmO0/view?usp=sharing" class="nav-link">How to use</a>
             </li>
             <li class="nav-item">
               <a href="contact.php" class="nav-link">Contact</a>

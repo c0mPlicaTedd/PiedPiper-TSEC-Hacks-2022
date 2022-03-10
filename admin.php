@@ -13,7 +13,7 @@
                 <img src="images/allyshow_w_1x.png" class="logo">
                 <nav>
                 <ul>
-                    <li><a href="">HOW TO USE</a></li>
+                    <li><a href="https://drive.google.com/file/d/1v00fQ9upXtBZAWqC5VgPRNSzy0L7HmO0/view?usp=sharing">HOW TO USE</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
                     <li><a href="personal-details.html">PERSONAL DETAILS</a></li>
                     <li><a href="includes/signout.inc.php">LOG OUT</a></li>
