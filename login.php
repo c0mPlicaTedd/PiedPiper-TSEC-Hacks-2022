@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Ally | Login</title>
-        <link href = "css/login7-style.css" rel = "stylesheet"  type= "text/css" >
+        <link href = "css/signup-style.css" rel = "stylesheet"  type= "text/css" >
     </head>
     <body>
         
@@ -12,6 +12,7 @@
                 
                 <form action="includes/login.inc.php" method="post">
                     <div class="form">
+                        <div class="image-insertion" >
                         
                         <div class = "form-group-email">
                             <label class="label-email">Email</label>
