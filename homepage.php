@@ -4,37 +4,38 @@
         <title>HomePage</title>
         <link href="css/homepage-styles.css" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        
+
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="container">
             <div class="navbar">
-                <img src="assets/img/allyshow_w_1x.svg" class="logo">
+                <img src="images/allyshow_w_1x.png" class="logo">
                 <nav>
                 <ul>
                     <li><a href="">HOW TO USE</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
-                    <li><a href="">PERSONAL DETAILS</a></li>
+                    <li><a href="personal-details.html">PERSONAL DETAILS</a></li>
                     <li><a href="includes/signout.inc.php">LOG OUT</a></li>
                 </ul>
             </nav>
             </div>
-<<<<<<< Updated upstream
-            <h3 id="suggestion" >Ally Suggestion: </h3>
-            <h3>Thought of the day: Laughter is the best medicine you can have </h3>
-            <h3>Please Rate your mood right now using the scale given below</h3>
-=======
             <br>
             <br>
-            <h2>Ally Suggestion: </h2>
+            <h2 >Ally Suggestion: </h2>
+                
+                <h3 id = "suggestion"></h3>
+            
+            <br>
             <h2>Thought of the day: </h2>
             <h3>Laughter is the best medicine you can have </h3>
+            <br>
             <h2>Please Rate your mood right now using the scale given below</h2>
             <br>
->>>>>>> Stashed changes
             <div class="slidecontainer">
                 <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+                <br>
+                <h3 id ="demo" style="display:inline-block"></h3>
               </div>
               
             <div class="row">
@@ -77,19 +78,20 @@
         </div>
        
     </body>
-    <script src = "js/ally-suggestion.js"></script>
+    <script src="js/ally-suggestion.js"></script>
     <script>
         
-createSugesstion();
+
         var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
+
 output.innerHTML = slider.value; // Display the default slider value
 
 // Update the current slider value (each time you drag the slider handle)
 slider.oninput = function() {
+    localStorage.setItem("rating",this.value);
   output.innerHTML = this.value;
 }
     
     </script>
-    
 </html>

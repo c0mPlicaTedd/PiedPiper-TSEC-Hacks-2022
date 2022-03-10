@@ -14,13 +14,13 @@
                 <nav>
                 <ul>
                     <li><a href="">HOW TO USE</a></li>
-                    <li><a href="">CONTACT</a></li>
-                    <li><a href="">PERSONAL DETAILS</a></li>
-                    <li><a href="">LOG OUT</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="personal-details.html">PERSONAL DETAILS</a></li>
+                    <li><a href="includes/signout.inc.php">LOG OUT</a></li>
                 </ul>
             </nav>
             </div>
-            <h1>Here's how your User's day has been going:</h1>
+            <h1 id = "mood">Here's how your User's day has been going:</h1>
             <br>
             <h3>Thought of the day: Laughter is the best medicine you can have </h3>
             
@@ -29,7 +29,7 @@
                     <div class="card card1">
                         <a href="" style="text-decoration:none">
                         <h2>ALLY,</h2>
-                        <p>suggested doing this on the basis of their mood.</p>
+                        <p id = "suggestion">suggested doing this on the basis of their mood.</p>
                         </a>
                     </div>
                     <div class="card card2">
@@ -50,5 +50,11 @@
         </div>
        
     </body>
-    
+    <script>
+        var suggestion = localStorage.getItem("suggestion");
+        console.log(suggestion);
+        document.getElementById("suggestion").innerHTML = "Ally suggested "+suggestion + " to the user.";
+        var mood = localStorage.getItem("rating");
+        document.getElementById("mood").innerHTML ="Here is how your User's day has been going: "+ mood + "/5";
+    </script>
 </html>
