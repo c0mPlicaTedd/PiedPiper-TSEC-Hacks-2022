@@ -10,7 +10,7 @@
             <div class="form-box">
                 <div data-bn-type="text" class = "register-title">Signup to Ally</div>
                 
-                <form action="includes/login.inc.php" method="post">
+                <form action="includes/signup.inc.php" method="post">
                     <div class="form">
                         
                         <div class = "form-group-email">
@@ -23,7 +23,7 @@
                         </div>
                     
                         <a href="" class="createacc-box">
-                        <button id = "button" class="btn-createaccount" data-bn-type="button" type ="sumbit" name="submit">Log In</button>
+                        <button id = "button" class="btn-createaccount" data-bn-type="button" type ="sumbit" name="submit">Sign Up</button>
                         </a> 
                         </div>
                     </form>

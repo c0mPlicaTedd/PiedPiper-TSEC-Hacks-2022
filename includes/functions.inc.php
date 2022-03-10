@@ -30,7 +30,7 @@ function emailExists($conn,$email){
    $stmt = mysqli_stmt_init($conn);
 
    if(!mysqli_stmt_prepare($stmt,$sql)){
-    header("location: ../signup.html?error=stmtfailed");
+    header("location: ../signup.php?error=stmtfailed");
     exit();
     }
 
@@ -54,7 +54,7 @@ function  createUser($conn,$email,$pwd){
     $sql = "INSERT INTO users (usersEmail,usersPwd) VALUES(?, ?);";
     $stmt = mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt,$sql)){
-        header("location: ../signup.html?error=stmtfailed");
+        header("location: ../signup.php?error=stmtfailed");
         exit();
     }
 
@@ -63,7 +63,7 @@ function  createUser($conn,$email,$pwd){
     mysqli_stmt_bind_param($stmt,"ss",$email,$hashedPwd);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
-    header("location: ../signup.html?error=none");
+    header("location: ../login.php?error=none");
     exit();
 
 }
@@ -86,7 +86,7 @@ function loginUser($conn,$email,$pwd){
     $emailExists = emailExists($conn,$email);
 
     if($emailExists == FALSE){
-        header("location: ../login.html?error=incorrectdetails");
+        header("location: ../login.php?error=incorrectdetails");
         exit();
     }
     
@@ -94,7 +94,7 @@ function loginUser($conn,$email,$pwd){
     $checkPwd = password_verify($pwd,$pwdHashed);
 
     if($checkPwd == FALSE){
-        header("location: ../login.html?error=incorrectdetails");
+        header("location: ../login.php?error=incorrectdetails");
         exit();
 
     }
@@ -103,9 +103,9 @@ function loginUser($conn,$email,$pwd){
         session_start();
         $_SESSION["usersEmail"] = $emailExists["usersEmail"];
         if($_SESSION["usersEmail"]=="jashdoshi99@gmail.com"){
-        header("location: ../admin.html");}
+        header("location: ../admin.php");}
         else if($_SESSION["usersEmail"]=="chetanabhojwani@gmail.com"){
-            header("location: ../homepage.html");
+            header("location: ../homepage.php");
         }
         exit();
     }

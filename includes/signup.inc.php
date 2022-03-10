@@ -10,16 +10,16 @@ if(isset($_POST["submit"])){
     $referral = $_POST["referral"];
 
     if(emptyInputRegister($email,$pwd) !== FALSE){
-        header("location: ../signup.html?error=emptyinput");
+        header("location: ../signup.php?error=emptyinput");
         exit();
     }
 
     if(emailExists($conn,$email) !== FALSE){
-        header("location: ../signup.html?error=emailexists");
+        header("location: ../signup.php?error=emailexists");
         exit();
     }
     if(invalidEmail($email) !== FALSE){
-        header("location: ../signup.html?error=invalidemail");
+        header("location: ../signup.php?error=invalidemail");
         exit();
     }
 
@@ -28,6 +28,6 @@ if(isset($_POST["submit"])){
 
 }
 else{
-    header("location: ../signup.html");
+    header("location: ../signup.php");
     exit();
 }
