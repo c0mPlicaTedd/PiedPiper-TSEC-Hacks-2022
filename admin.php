@@ -37,6 +37,7 @@
                         <h2>Medicines</h2>
                         <p>Did User take his daily medicines?</p>
                     </a>
+</div>
                     <div class="bg-modal">
                     <div class = "modal-content">
                 <div type="text" class = "register-title">Are you a?</div>
