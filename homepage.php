@@ -47,7 +47,7 @@
                         </a>
                     </div>
                     <div class="card card2">
-                        <a href="" style="text-decoration:none">
+                        <a href="https://www.google.com/photos/about/" style="text-decoration:none">
                         <h5>Memories</h5>
                         <p>Photos and videos to remind you of your family and friends</p>
                     </a>
@@ -61,7 +61,7 @@
                     <div class="card card4">
                         <a href="" style="text-decoration:none">
                         <h5>Relations</h5>
-                        <p>Contacts fo your friends and family.</p>
+                        <p>Video Call your friends and family.</p>
                     </a>
                     </div>
                     

@@ -24,8 +24,8 @@
                         </div>
                         <br>
                         <input type="checkbox" class="check-box"><span class="checkbox-styling">Remember Me</span>
-                        
-                        <a href="signup.php">Create an account</a>
+                        <br>
+                        <a href="signup.php" class="createaccount">Create an account</a>
                         <a href="" class="createacc-box">
                         <button class="btn-createaccount" data-bn-type="button" type ="sumbit" name="submit">Log In</button>
                         </a> 

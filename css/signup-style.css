@@ -43,7 +43,7 @@
 .form-input:focus{
     border-width: 2px;
     outline: none;
-    border-color:#66fcf1;;
+    border-color:#949bc5;;
     border-style: solid;
 
 }
@@ -76,7 +76,7 @@
    outline: none;
    border: none;
    border-radius: 4px;
-   background-color: #d5a27a;
+   background-color: #8d9ae6;
 }
 .label-email,.label-password,.label-referral{
     font-size: 12px;
@@ -91,7 +91,7 @@
     
 }
 .btn-createaccount:hover{
-    background-color: #a3fdf6;
+    background-color: #949bc5;
 }
 
 .createacc-box{
@@ -147,7 +147,7 @@
     .modal-input-email:focus,.modal-input-password:focus{
         border-width: 2px;
         outline: none;
-        border-color:#98ff98;
+        border-color:#949bc5;
         border-style: solid;
     }
     .register-title{
@@ -182,7 +182,7 @@
         outline: none;
         border: none;
         border-radius: 4px;
-        background-color: #32cd32;
+        background-color: #8d9ae6;
     }
     .care-button{
         text-decoration: none;
@@ -203,10 +203,17 @@
         outline: none;
         border: none;
         border-radius: 4px;
-        background-color: #32cd32;
+        background-color: #8d9ae6;
     }
-    .button:hover{
-        background-color: #98ff98;
+    .createaccount{
+        position: flex;
+        padding-top: 20px;
+        margin: 45px 45px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .care-button:hover,.user-button:hover{
+        background-color: #949bc5;
     }
     .signinhyperlink{
        font-size: 11px;

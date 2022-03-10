@@ -86,7 +86,7 @@
           <div class="col-md-6 col-lg-4 py-3 wow fadeInUp">
             <div class="d-flex flex-row">
               <div class="img-fluid mr-3">
-                <img src="images/2.jpg" alt="vector image">
+                <img src="assets/img/icon_pattern.svg" alt="vector image">
               </div>
               <div>
                 <h5>Photo memories with their loved ones.</h5>
@@ -133,9 +133,9 @@
           <div class="col-lg-6 py-3 wow fadeInRight">
             <h2 class="title-section">In India,<span class="marked">Dementia</span> affects more than 5.3 million people.</h2>
             <div class="divider"></div>
-            <p>As age increases the chances of Dementia increase. A</p>
+            <p>As age increases the chances of Dementia increase.</p>
             <div class="img-place mb-3">
-              <img src="assets/img/testi_image.png" alt="">
+              <img src="assets/img/facts-alzheimers-prevalence-inlineimage.png" alt="">
             </div>
             <a href="#" class="btn btn-primary">More Details</a>
             <a href="#" class="btn btn-outline border ml-2">Success Stories</a>
@@ -152,9 +152,9 @@
           <div class="col-lg-6 py-3 wow fadeInLeft">
             <h2 class="title-section">We're <span class="marked">ready to</span> Serve you with best</h2>
             <div class="divider"></div>
-            <p class="mb-5">We provide marketing services to startups & small business to looking for partner for their digital media, design & dev lead generation & communication.</p>
+            <p class="mb-5">We provide care solutions for your loved ones, while making them independent and in control of themselves.</p>
             <a href="#" class="btn btn-primary">More Details</a>
-            <a href="#" class="btn btn-outline ml-2">See pricing</a>
+            <a href="login.php" class="btn btn-outline ml-2">Login</a>
           </div>
           <div class="col-lg-6 py-3 wow zoomIn">
             <div class="img-place text-center">
@@ -169,25 +169,25 @@
       <div class="container">
         <div class="text-center wow fadeInUp">
           <div class="subhead">Why Choose Us</div>
-          <h2 class="title-section">Your <span class="marked">Comfort</span> is Our Priority</h2>
+          <h2 class="title-section">Their <span class="marked">Comfort</span> is Our Priority</h2>
           <div class="divider mx-auto"></div>
         </div>
   
         <div class="row mt-5 text-center">
           <div class="col-lg-4 py-3 wow fadeInUp">
             <div class="display-3"><span class="mai-shapes"></span></div>
-            <h5>High Performance</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+            <h5>Easy to sign up</h5>
+            <p>You and your loved ones can both signup and link accounts to each others very easily.</p>
           </div>
           <div class="col-lg-4 py-3 wow fadeInUp">
             <div class="display-3"><span class="mai-shapes"></span></div>
-            <h5>Friendly Prices</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+            <h5>Friendly Interface</h5>
+            <p>Our easy to navigate interface will never confuse them.</p>
           </div>
           <div class="col-lg-4 py-3 wow fadeInUp">
             <div class="display-3"><span class="mai-shapes"></span></div>
-            <h5>No time-confusing</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.</p>
+            <h5> Keep them close</h5>
+            <p>No matter how far they are you can keep track on their daily to-dos,their mood and if they've taken their meds.</p>
           </div>
         </div>
       </div> <!-- .container -->

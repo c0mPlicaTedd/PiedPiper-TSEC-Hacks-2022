@@ -37,6 +37,14 @@
                         <h2>Medicines</h2>
                         <p>Did User take his daily medicines?</p>
                     </a>
+                    <div class="bg-modal">
+                    <div class = "modal-content">
+                <div type="text" class = "register-title">Are you a?</div>
+
+                <a onclick= modalclose() id = "role-button" class="user-button" >Yes</a>
+                <a onclick = modalclose() id = "role-button" class="care-button">No</a>
+            </form>
+        </div>
                     </div>
                     <div class="card card3">
                         <a href="reminders-index.html" style="text-decoration:none">
