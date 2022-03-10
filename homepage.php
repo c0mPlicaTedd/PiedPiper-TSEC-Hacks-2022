@@ -4,13 +4,13 @@
         <title>HomePage</title>
         <link href="css/homepage-styles.css" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+        
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="container">
             <div class="navbar">
-                <img src="images/allyshow_w_1x.png" class="logo">
+                <img src="assets/img/allyshow_w_1x.svg" class="logo">
                 <nav>
                 <ul>
                     <li><a href="">HOW TO USE</a></li>
@@ -20,7 +20,7 @@
                 </ul>
             </nav>
             </div>
-            <h3>Ally Suggestion: </h3>
+            <h3 id="suggestion" >Ally Suggestion: </h3>
             <h3>Thought of the day: Laughter is the best medicine you can have </h3>
             <h3>Please Rate your mood right now using the scale given below</h3>
             <div class="slidecontainer">
@@ -67,9 +67,10 @@
         </div>
        
     </body>
+    <script src = "js/ally-suggestion.js"></script>
     <script>
         
-
+createSugesstion();
         var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
 output.innerHTML = slider.value; // Display the default slider value
@@ -80,5 +81,5 @@ slider.oninput = function() {
 }
     
     </script>
->>>>>>> Stashed changes
+    
 </html>
