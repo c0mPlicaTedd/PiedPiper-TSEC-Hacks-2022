@@ -54,7 +54,7 @@ nav ul li a{
     display: flex;
 }
 h1{
-    color: black;
+    color:white;
     font-size: 100px;
 }
 p{
@@ -107,8 +107,9 @@ h5{
     font-size: 20px;
 }
 .card p{
-    text-shadow: 0 0 15px #000;
-    font-size: 12px;
+    text-shadow: 0 0 0px #000;
+    font-size: 17px;
+    padding-top: 5px;
 }
 .bg-modal{
     width: 100%;

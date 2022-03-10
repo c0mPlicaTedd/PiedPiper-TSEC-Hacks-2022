@@ -104,7 +104,7 @@ function loginUser($conn,$email,$pwd){
         $_SESSION["usersEmail"] = $emailExists["usersEmail"];
         if($_SESSION["usersEmail"]=="jashdoshi99@gmail.com"){
         header("location: ../admin.php");}
-        else if($_SESSION["usersEmail"]=="chetanabhojwani@gmail.com"){
+        else {
             header("location: ../homepage.php");
         }
         exit();
