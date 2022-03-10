@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta name="viewpoint" content="width=device-width , initial-scale=1.0">
-        <title>HomePage</title>
+        <title>Admin</title>
         <link href="css/admin-style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 

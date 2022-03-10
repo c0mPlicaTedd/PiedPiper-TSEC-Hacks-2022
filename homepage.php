@@ -20,9 +20,19 @@
                 </ul>
             </nav>
             </div>
+<<<<<<< Updated upstream
             <h3 id="suggestion" >Ally Suggestion: </h3>
             <h3>Thought of the day: Laughter is the best medicine you can have </h3>
             <h3>Please Rate your mood right now using the scale given below</h3>
+=======
+            <br>
+            <br>
+            <h2>Ally Suggestion: </h2>
+            <h2>Thought of the day: </h2>
+            <h3>Laughter is the best medicine you can have </h3>
+            <h2>Please Rate your mood right now using the scale given below</h2>
+            <br>
+>>>>>>> Stashed changes
             <div class="slidecontainer">
                 <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
               </div>
@@ -38,26 +48,26 @@
                     <div class="card card2">
                         <a href="" style="text-decoration:none">
                         <h5>Memories</h5>
-                        <p>A bunch of games to keep your mind exercised</p>
+                        <p>Photos and videos to remind you of your family and friends</p>
                     </a>
                     </div>
                     <div class="card card3">
                         <a href="reminders-index.html" style="text-decoration:none">
                         <h5>To do list</h5>
-                        <p>A bunch of games to keep your mind exercised</p>
+                        <p>Reminders to plan your day.</p>
                         </a>
                     </div>
                     <div class="card card4">
                         <a href="" style="text-decoration:none">
                         <h5>Relations</h5>
-                        <p>Plans of the day</p>
+                        <p>Contacts fo your friends and family.</p>
                     </a>
                     </div>
                     
                     <div class="card card5">
                         <a href="https://youtube.com/playlist?list=PLD72Ylz-Y01vcGTYmEaN9nz02o0yZMWy8" target="_blank" style="text-decoration:none">
                         <h5>Feel Good</h5>
-                        <p>Alot of photos reminding you of your friends and family</p>
+                        <p>Cute videos of Kitty cats from the internet.</p>
                         </a>
                     </div>
                 
