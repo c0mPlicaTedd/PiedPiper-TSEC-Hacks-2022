@@ -14,9 +14,9 @@
                 <nav>
                 <ul>
                     <li><a href="">HOW TO USE</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
                     <li><a href="">PERSONAL DETAILS</a></li>
-                    <li><a href="">LOG OUT</a></li>
+                    <li><a href="includes/signout.inc.php">LOG OUT</a></li>
                 </ul>
             </nav>
             </div>
