@@ -11,3 +11,7 @@ https://user-images.githubusercontent.com/72159678/157925726-2672c992-f08f-4f6a-
 
 ![viewer-choice](https://user-images.githubusercontent.com/72159678/157926764-c3d35ca9-6212-4609-a01c-b6816eab6b51.PNG)
 ![signup](https://user-images.githubusercontent.com/72159678/157926776-b781dd07-a995-4208-81dc-4d9dd6d44795.PNG)
+
+# Login Page
+- Once the viewer signsup, he/she is take to the login page where they need to login with their account just created.
+![login](https://user-images.githubusercontent.com/72159678/157927417-c8c171bb-4ce5-456b-9d91-b5d5caef0ffe.PNG)
