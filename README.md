@@ -1,5 +1,11 @@
-# Ally | It's time to take care for the ones who cared for you.
-- A website for dementia patients which helps them with their problem.
+<p align="center">
+  <img alt="ally logo" src="assets/img/allyshow_w_1x.png" width="100px" />
+  <h1 align="center">Ally</h1>
+  <p align="center"><i>It's time to take care for the ones who cared for you.</i></h2>
+</p>
+
+
+- Ally is a website for dementia patients which helps them with their problem.
 - User can play games, view photos of their families, add reminders and video call their closed ones.
 - Care takers can view how the user is feeling, see his reminder list, get to know about the days until they will recieve a new medicine package and video call the user.
 
