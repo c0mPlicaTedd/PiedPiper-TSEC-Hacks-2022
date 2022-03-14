@@ -42,4 +42,10 @@ https://user-images.githubusercontent.com/72159678/157925726-2672c992-f08f-4f6a-
 3. Shows user's to do list and add/delete tasks in it.
 4. Enter if the user has taken their medicine and shows how many days until their current medicine last and their next medicine package arrives (not added due to time shortage)
 
-https://user-images.githubusercontent.com/72159678/158109313-e166d325-6c32-4be5-b273-0712fe05b70b.mp4
+
+
+https://user-images.githubusercontent.com/72159678/158109832-9f8bd610-7b63-46d3-815d-d895a32e716e.mp4
+
+
+
+
