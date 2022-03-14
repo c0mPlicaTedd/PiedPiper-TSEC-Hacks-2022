@@ -23,8 +23,18 @@ https://user-images.githubusercontent.com/72159678/157925726-2672c992-f08f-4f6a-
 ![login](https://user-images.githubusercontent.com/72159678/157927417-c8c171bb-4ce5-456b-9d91-b5d5caef0ffe.PNG)
 
 # User Dashboard
+- The User Dashboard consits of 6 features:
+1. User can set his/her mood and ally will suggest what to do based on the rating.
+2. User can play games.
+3. User can create a to do list which is in sync with the care-taker.
+4. User can watch funny cat videos to uplift his/her mood.
+5. User can watch photos and videos of his/her closed ones. (not added due to time shortage)
+6. User can video call their loved ones. (not added due to time shortage)
 
 
+
+
+https://user-images.githubusercontent.com/72159678/158110816-10e01e70-abcb-4f24-9c6e-c32ee1a2ae58.mp4
 
 
 
