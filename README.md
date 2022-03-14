@@ -50,7 +50,7 @@ https://user-images.githubusercontent.com/72159678/158110816-10e01e70-abcb-4f24-
 1. Shows the mood of the user
 2. Shows ally's recommendation
 3. Shows user's to do list and add/delete tasks in it.
-4. Enter if the user has taken their medicine and shows how many days until their current medicine last and their next medicine package arrives (not added due to time shortage)
+4. Care-taker can enter if the user has taken their medicine and shows how many days until their current medicine last and their next medicine package arrives (not added due to time shortage)
 
 
 
