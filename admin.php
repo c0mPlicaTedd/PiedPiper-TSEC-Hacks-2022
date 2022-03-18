@@ -10,7 +10,7 @@
     <body>
         <div class="container">
             <div class="navbar">
-                <img src="images/allyshow_w_1x.png" class="logo">
+                <img src="assets/img/allyshow_w_1x.png" class="logo">
                 <nav>
                 <ul>
                     <li><a href="https://drive.google.com/file/d/1v00fQ9upXtBZAWqC5VgPRNSzy0L7HmO0/view?usp=sharing">HOW TO USE</a></li>
